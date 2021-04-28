@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h1{
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid #087a6a;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn{
+    padding: 5px 33px;
+    margin: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: cornsilk;
+    background-color: #087a6a;
+    outline: none;
+    cursor: pointer;
+    
+}
